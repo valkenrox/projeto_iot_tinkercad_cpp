@@ -11,15 +11,15 @@ int SensorUmidPino=1;
 int porcem=0;
 
 
-// Define o pino 8 para o alerta de temperatura baixa
-int AlertaTempBaixa=8;
-// Define o pino 13 para o alerta de temperatura alta
-int AlertaTempAlta=13;
+// Define o pino 12 para o alerta de temperatura baixa
+int AlertaTempBaixa=12;
+// Define o pino 19 para o alerta de temperatura alta
+int AlertaTempAlta=25;
 
-// Define temperatura baixa como abaixo de zero grau Celsius
-int TempBaixa=0;
-// Define temperatura alta como acima de 40 graus Celsius
-int TempAlta=40;
+// Define temperatura baixa como 10 graus Celsius
+int TempBaixa=10;
+// Define temperatura alta como acima de 26 graus Celsius
+int TempAlta=27;
 
 
 void setup() 
